@@ -17,10 +17,10 @@
   --color-primary-pink-variant: lighten(rgb(211, 181, 198, 70%));
   --color-primary-green: #90c5a9;
   --color-primary-green-variant: #7a9a95;
-  --color-primary-ogrange: #fa8b60;
-  --color-primary-green-variant: #ef6d3b;
+  --color-primary-orange: #fa8b60;
+  --color-primary-orange-variant: #ef6d3b;
   --color-primary-bule: rgb(129, 215, 247);
-  --color-primary-green-variant: darken(rgb(129, 215, 247, 60%));
+  --color-primary-bule-variant: darken(rgb(129, 215, 247, 60%));
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -65,6 +65,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 section > h2,
 section > h5 {
@@ -108,7 +109,9 @@ a:hover {
 }
 
 .btn-primary:hover {
-  background: var(--color-primary-ogrange);
+  background: var(--color-primary-orange);
+  color: var(--color-bg);
+  border-color: transparent;
 }
 
 img {
