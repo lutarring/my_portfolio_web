@@ -12,7 +12,8 @@
 
 :root {
   --color-bg: #3f2860;
-  --colot-bg-variant: lighten(#3f2860, 15%);
+  --color-primary: #4db5ff;
+  --color-bg-variant: #2c2c6c;
   --color-primary-pink: rgb(211, 181, 198);
   --color-primary-pink-variant: lighten(rgb(211, 181, 198, 70%));
   --color-primary-green: #90c5a9;
@@ -25,6 +26,10 @@
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
+
+  --container-width-lg: 75%
+  --container-width-md: 86%
+  --container-width-sm: 90%
 }
 
 html {
@@ -65,7 +70,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 section > h2,
 section > h5 {
