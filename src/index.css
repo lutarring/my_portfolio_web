@@ -14,14 +14,15 @@
   --color-bg: #3f2860;
   --color-primary: #4db5ff;
   --color-bg-variant: #2c2c6c;
+  --color-bg-variant-transparent: rgba(76, 76, 192, 50%);
   --color-primary-pink: rgb(211, 181, 198);
-  --color-primary-pink-variant: lighten(rgb(211, 181, 198, 70%));
+  --color-primary-pink-variant: rgb(211, 181, 198, 70%);
   --color-primary-green: #90c5a9;
   --color-primary-green-variant: #7a9a95;
   --color-primary-orange: #fa8b60;
   --color-primary-orange-variant: #ef6d3b;
   --color-primary-bule: rgb(129, 215, 247);
-  --color-primary-bule-variant: darken(rgb(129, 215, 247, 60%));
+  --color-primary-bule-variant: rgb(129, 215, 247, 60%);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -106,6 +107,17 @@ a:hover {
   transition: var(--transition);
 }
 
+.btn-primary {
+  width: max-content;
+  display: inline-block;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
 .btn:hover {
   background: var(--color-primary-green);
   color: var(--color-bg);
@@ -113,9 +125,9 @@ a:hover {
 }
 
 .btn-primary:hover {
-  background: var(--color-primary-orange);
-  color: var(--color-bg);
-  border-color: transparent;
+  background: var(--color-bg);
+    color: var(--color-white);
+    border: 1px solid var(--color-primary);
 }
 
 img {

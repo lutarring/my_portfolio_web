@@ -1,5 +1,5 @@
 header {
-  height: 97vh;
+  height: 85vh;
   padding-top: 5rem;
   overflow: hidden;
 }
@@ -28,12 +28,12 @@ header {
 }
 
 .myProfile {
-  width: 22rem;
+  width: 25rem;
   position: absolute;
-  left: 50%;
+  left: 52%;
   transform: translateX(-50%);
-  margin-top: 2rem;
-  border-radius: 15rem 15rem 15rem 0;
+  margin-top: 3rem;
+  border-radius: 5rem 5rem 5rem 0;
   overflow: hidden;
 }
 
@@ -50,14 +50,14 @@ header {
 /* ==================== MEDIA QUERIRES (MEDIUM DEICES) ===================== */
 @media screen and (max-width: 1024px) {
   header {
-    height: 95vh;
+    height: 85vh;
   }
 }
 
 /* ==================== MEDIA QUERIRES (SMALL DEICES) ===================== */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 85vh;
   }
   .header-socials,
   .scroll_down {
