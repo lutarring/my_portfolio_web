@@ -1,5 +1,6 @@
 import './contact.css'
-import { MdEmail } from 'react-icons/md'
+import { MdEmail, MdLocationOn } from 'react-icons/md'
+import { TbLanguageHiragana } from 'react-icons/tb'
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 
@@ -36,20 +37,14 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact_option">
-            <MdEmail className="contact_option_icon"/>
-            <h4>Email</h4>
-            <h5>lutarring@gmail.com</h5>
-            <a href="mailto:lutarring@gmail.com">
-              Send a message
-            </a>
+            <MdLocationOn className="contact_option_icon"/>
+            <h4>Location</h4>
+            <h5>日本東京江戸川区</h5>
           </article>
           <article className="contact_option">
-            <MdEmail className="contact_option_icon"/>
-            <h4>Email</h4>
-            <h5>lutarring@gmail.com</h5>
-            <a href="mailto:lutarring@gmail.com">
-              Send a message
-            </a>
+            <TbLanguageHiragana className="contact_option_icon"/>
+            <h4>Languages</h4>
+            <h5>中国語、日本語、英語</h5>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

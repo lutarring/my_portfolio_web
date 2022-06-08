@@ -9,9 +9,11 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h2>Hello I'm</h2>
-        <h1>XU LU</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h5>IT IS MY PORTFOLIO SITE.</h5>
+        <br></br>
+        <h2>徐　璐 / XU LU</h2>
+        <h5>95年生まれ、中国出身です</h5>
+        <h5 className="text-light">システムエンジニア</h5>
         <ContactButton/>
         <HeaderSocials/>
         <div className="myProfile">

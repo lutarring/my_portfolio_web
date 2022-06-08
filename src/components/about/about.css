@@ -1,7 +1,7 @@
 .about_container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 35% 55%;
+    gap: 10%;
 }
 
 .about_me {
@@ -52,18 +52,21 @@
     margin-bottom: 1rem;
 }
 
-.about_card h5 {
+.about_card h4 {
     font-size: 0.95rem;
 }
 
-.about_card small {
-    font-size: 0.7rem;
+.about_card h5 {
+    font-size: 0.75rem;
     color: var(--color-light);
 }
 
 .about_content p {
-    margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.about_ps {
+    margin: 2rem 0 2.6rem;
 }
 
 /* ==================== MEDIA QUERIRES (MEDIUM DEICES) ===================== */

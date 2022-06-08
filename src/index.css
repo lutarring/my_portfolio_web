@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 
 * {
   margin: 0;
@@ -16,7 +16,7 @@
   --color-bg-variant: #2c2c6c;
   --color-bg-variant-transparent: rgba(76, 76, 192, 50%);
   --color-primary-pink: rgb(211, 181, 198);
-  --color-primary-pink-variant: rgb(211, 181, 198, 70%);
+  --color-primary-pink-variant: rgba(227, 223, 213, 90%);
   --color-primary-green: #90c5a9;
   --color-primary-green-variant: #7a9a95;
   --color-primary-orange: #fa8b60;
@@ -24,7 +24,7 @@
   --color-primary-bule: rgb(129, 215, 247);
   --color-primary-bule-variant: rgb(129, 215, 247, 60%);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(255, 255, 255, 0.8);
 
   --transition: all 400ms ease;
 
@@ -42,7 +42,7 @@ html {
 }
 
 body {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Klee One', cursive;
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -61,7 +61,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 1000;
+  font-family: 'Klee One', cursive;
 }
 
 h1 {
@@ -84,6 +84,7 @@ section > h2 {
 }
 
 .text-light {
+  margin-top: 1rem;
   color: var(--color-primary-pink-variant);
 }
 
