@@ -5,8 +5,8 @@ import {HiOutlineMail} from 'react-icons/hi'
 const HeaderSocials = () => {
   return (
     <div className="header-socials">
-        <a href="www.github.com" target="_blank"><BsGithub /></a>    
-        <a href="www.google.com" target="_blank"><HiOutlineMail /></a>    
+        <a href="https://github.com/lutarring" target="_blank" rel="noreferrer"><BsGithub /></a>    
+        <a href="#contact"><HiOutlineMail /></a>    
     </div>
   )
 }

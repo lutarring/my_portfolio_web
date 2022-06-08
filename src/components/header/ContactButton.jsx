@@ -5,7 +5,7 @@ const ContactButton = () => {
   return (
     <div className="contact-button">
     <a href={CV} download className="btn">Download CV</a>
-    <a href="#contactme" className="btn btn-primary">Contact Me!</a>
+    <a href="#contact" className="btn">Contact Me!</a>
       </div>
 
   )

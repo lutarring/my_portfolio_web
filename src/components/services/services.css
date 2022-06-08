@@ -47,10 +47,26 @@
 .portfolios_item {
     position: relative;
     padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.image {
+ width: 100%;
+}
+
+.image:hover {
+    background: var(--color-primary);
 }
 
 .portfolios_item img {
-    width: 100%;
+    object-fit: contain;
+    border-radius: 5rem;
+}
+
+.portfolios_item img:hover {
     object-fit: contain;
     border-radius: 5rem;
 }

@@ -120,7 +120,7 @@ a:hover {
   transition: var(--transition);
 }
 .btn:hover {
-  background: var(--color-primary-green);
+  background: var(--color-primary);
   color: var(--color-bg);
   border-color: transparent;
 }
