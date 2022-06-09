@@ -36,7 +36,7 @@ const About = () => {
             <article className="about_card">
               <SiProtonvpn className="about_icon"/>
               <h4>Projects</h4>
-              <h5>四つのプロジェクトに参画し、証券，銀行，社内管理などの業界業務知識があります。</h5>
+              <h5>四つのプロジェクトに参画した経験。証券，銀行，社内管理などの業界業務知識があります。</h5>
             </article>
           </div>
           <div className="about_ps">
