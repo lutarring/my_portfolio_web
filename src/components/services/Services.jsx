@@ -3,11 +3,10 @@ import './services.css'
 import { FaFileCode } from 'react-icons/fa'
 import { SiMoleculer } from 'react-icons/si'
 import { RiDatabase2Line } from 'react-icons/ri'
-import ImageFirst from '../../assets/eggplant.jpeg'
-import ImageSecond from '../../assets/green.jpeg'
-import ImageThird from '../../assets/straw.jpeg'
+import ImageFirst from "../../assets/rf.jpeg";
+import ImageSecond from '../../assets/rm.jpeg'
+import ImageThird from '../../assets/csg.jpeg'
 import ImageForth from '../../assets/peer.jpeg'
-
 
 
 
@@ -117,28 +116,28 @@ const Services = () => {
             </div>
           </div>
           <div className="service_head">
-            <h5>Chat App</h5>
+            <h5>App</h5>
             <h3>TODO</h3>
           </div>
 
           <ul className="service_list">
             <li>
               <FaFileCode className="service_list_icon" />
-              <p>Dumy</p>
+              <p>Dummy</p>
             </li>
             <li>
               <SiMoleculer className="service_list_icon" />
-              <p>Dumy</p>
+              <p>Dummy</p>
             </li>
             <li>
               <RiDatabase2Line className="service_list_icon" />
-              <p>Dumy</p>
+              <p>Dummy</p>
             </li>
           </ul>
         </article>
 
         {/* fouth Application */}
-        <article className="service">
+        {/* <article className="service">
           <div className="portfolios">
             <div className="portfolios_item">
               <div className="image">
@@ -147,7 +146,7 @@ const Services = () => {
             </div>
           </div>
           <div className="service_head">
-            <h5>Chat App</h5>
+            <h5>App</h5>
             <h3>TODO</h3>
           </div>
 
@@ -165,7 +164,7 @@ const Services = () => {
               <p>Dumy</p>
             </li>
           </ul>
-        </article>
+        </article> */}
       </div>
     </section>
   );
