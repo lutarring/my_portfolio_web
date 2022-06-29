@@ -14,15 +14,17 @@ const Header = () => {
         <h2>徐　璐 / XU LU</h2>
         <h5>95年生まれ、中国出身です</h5>
         <h5 className="text-light">システムエンジニア</h5>
-        <ContactButton/>
-        <HeaderSocials/>
+        <ContactButton />
+        <HeaderSocials />
         <div className="myProfile">
           <img src={myProfile} alt="myProfile" />
         </div>
-        <a href="#contact" className="scroll_down">Scroll Down</a>
+        <a href="#contact" className="scroll_down">
+          Scroll Down
+        </a>
       </div>
     </header>
-  )
+  );
 }
 
 export default Header
