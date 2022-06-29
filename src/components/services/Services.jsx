@@ -5,11 +5,7 @@ import { SiMoleculer } from 'react-icons/si'
 import { RiDatabase2Line } from 'react-icons/ri'
 import ImageFirst from "../../assets/rf.jpeg";
 import ImageSecond from '../../assets/rm.jpeg'
-import ImageThird from '../../assets/csg.jpeg'
-import ImageForth from '../../assets/peer.jpeg'
-
-
-
+import ImageThird from "../../assets/csg.jpeg";
 
 const Services = () => {
   return (
@@ -135,36 +131,6 @@ const Services = () => {
             </li>
           </ul>
         </article>
-
-        {/* fouth Application */}
-        {/* <article className="service">
-          <div className="portfolios">
-            <div className="portfolios_item">
-              <div className="image">
-                <img src={ImageForth} alt="App03 Image" />
-              </div>
-            </div>
-          </div>
-          <div className="service_head">
-            <h5>App</h5>
-            <h3>TODO</h3>
-          </div>
-
-          <ul className="service_list">
-            <li>
-              <FaFileCode className="service_list_icon" />
-              <p>Dumy</p>
-            </li>
-            <li>
-              <SiMoleculer className="service_list_icon" />
-              <p>Dumy</p>
-            </li>
-            <li>
-              <RiDatabase2Line className="service_list_icon" />
-              <p>Dumy</p>
-            </li>
-          </ul>
-        </article> */}
       </div>
     </section>
   );
